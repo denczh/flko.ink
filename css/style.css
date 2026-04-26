@@ -154,10 +154,27 @@ section h2 {
   border-top: 1px solid #222;
 }
 
-.sobre-mi-content p {
-  max-width: 600px;
+.sobre-mi-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.sobre-mi-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.sobre-mi-col p {
   color: var(--muted);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .sobre-mi-cols {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* CONTACTO */
