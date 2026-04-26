@@ -182,6 +182,12 @@ section h2 {
   border-top: 1px solid #222;
 }
 
+.contacto-nombre {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+
 .contacto-links {
   display: flex;
   gap: 2rem;
